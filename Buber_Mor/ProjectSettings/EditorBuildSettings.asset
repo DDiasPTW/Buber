@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Never_have_i_ever.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Kings_Cup.unity
+    guid: 1c5372f4c0e7649439a2beb50c9f1d7b
   m_configObjects: {}
