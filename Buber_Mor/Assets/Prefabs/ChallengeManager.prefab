@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5462909518518683266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5462909518518683268}
+  - component: {fileID: 5462909518518683269}
+  m_Layer: 0
+  m_Name: ChallengeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5462909518518683268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462909518518683266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 508.8961, y: 269.7774, z: -52.787678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5462909518518683269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462909518518683266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ca90a312ecf1347aa1ca16a6567833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howLongTillNextChallenge: 0
+  challengeUI: {fileID: 0}
+  challengeText: {fileID: 0}
+  minChallengeTimeSecs: 240
+  maxChallengeTimeSecs: 600
+  Challenges:
+  - LAST TO STAND UP, +1 SHOT
+  - 'KNOWLEDGE TIME: STARTING FROM THE OLDEST PLAYER TO THE PLAYER TO THEIR LEFT
+    AND SO ON.. NAME COUNTRIES STARTING WITH ''P'', WHOEVER IS UNABLE TO +1 SHOT'
+  - LAST TO TOUCH FLOOR WITH LEFT HAND, +1 SHOT
+  - LAST TO TOUCH A LIQUID, +1 SHOT
+  - LAST TO TOUCH FLOOR WITH RIGHT HAND, +1 SHOT
+  - LAST TO LAY DOWN ON THE FLOOR, +1 SHOT
+  - LAST TO CLAP, +1 SHOT
+  - LAST TO TOUCH A 'YELLOW' OBJECT, +1 SHOT
+  - LAST TO JUMP, +1 SHOT
+  - LAST TO CHUG THEIR DRINK, +1 SHOT
+  - 'VOTING TIME: EVERYONE VOTES FOR 1 PLAYER TO CALL THEIR 7TH CONTACT AND ASK FOR
+    THE TIME (ONLY THE MOST VOTED MUST DO IT), IF THEY REFUSE +3 SHOTS'
+  - LAST TO TOUCH A 'WHITE' OBJECT, +1 SHOT
+  - 'KNOWLEDGE TIME: STARTING FROM THE YOUNGEST PLAYER TO THE PLAYER TO THEIR LEFT
+    AND SO ON.. NAME BRANDS STARTING WITH ''T'', WHOEVER IS UNABLE TO +1 SHOT'
+  - 'UNLUCKY: EVERYONE NAMES A PLAYER TO FINISH THEIR OWN DRINK'
+  - 'GOOD MANNERS: FROM NOW ON NO ONE IS ALLOWED TO SWEAR, THE FIRST PLAYER TO DO
+    IT DRINKS +2 SHOTS'
+  - 'BETTER VOCABULARY: FROM NOW ONE EVERYONE CAN ONLY SAY WORDS STARTING WITH THE
+    SAME LETTER AS THEIR FIRST NAME. FIRST PLAYER TO FAIL DOING SO DRINKS +1 SHOT'
+  - 'LOVER BIRDS: EVERYONE VOTES FOR 2 PLAYERS TO KISS. IF THEY REFUSE +1 SHOT EACH '

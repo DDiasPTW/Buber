@@ -10,7 +10,7 @@ public class MainMenu_Handler : MonoBehaviour
     private void Awake()
     {
         games_Menu.SetActive(false);
-        drinks_Menu.SetActive(false);
+        drinks_Menu.SetActive(false);       
     }
 
     public void OpenDrinks()
