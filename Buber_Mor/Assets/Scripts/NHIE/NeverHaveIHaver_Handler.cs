@@ -26,7 +26,6 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
         //Se uma pergunta ja estiver a ser usada guarda-se essa pergunta num novo dictionary
         //e remove-se do original para nao haver repeticoes, depois caso o dictionary
         //original estiver vazio usa-se o secundario
-        nuncaUncaText.text = "";
 
         if (nuncaUncas.Count == 0 && using1)
         {
@@ -54,12 +53,6 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
             nuncaUncas.Add(_nuncaUncas_[randomNumber]);
             _nuncaUncas_.Remove(_nuncaUncas_[randomNumber]);
         }
-
-        
-
-        
-        
-        
     }
 
     public void Back()
