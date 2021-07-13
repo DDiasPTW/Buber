@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Beeramid.unity
     guid: f62f922954a1d1144b5029657c504453
+  - enabled: 1
+    path: Assets/Scenes/Kings.unity
+    guid: 651eea366cfb4994894eb1bba6f1fe32
   m_configObjects: {}

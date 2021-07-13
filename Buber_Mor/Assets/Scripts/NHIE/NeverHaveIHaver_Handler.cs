@@ -42,14 +42,14 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
         if (using1)
         {
             randomNumber = Random.Range(0, nuncaUncas.Count);
-            nuncaUncaText.text = nuncaUncas[randomNumber];
+            nuncaUncaText.text = "..." + nuncaUncas[randomNumber].ToLower();
             _nuncaUncas_.Add(nuncaUncas[randomNumber]);
             nuncaUncas.Remove(nuncaUncas[randomNumber]);
         }
         if(using2)
         {
             randomNumber = Random.Range(0, _nuncaUncas_.Count);
-            nuncaUncaText.text = _nuncaUncas_[randomNumber];
+            nuncaUncaText.text = "..." + _nuncaUncas_[randomNumber].ToLower();
             nuncaUncas.Add(_nuncaUncas_[randomNumber]);
             _nuncaUncas_.Remove(_nuncaUncas_[randomNumber]);
         }

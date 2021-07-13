@@ -36,4 +36,14 @@ public class MainMenu_Handler : MonoBehaviour
     {
         SceneManager.LoadScene("Beeramid");
     }
+
+    public void Kings()
+    {
+        SceneManager.LoadScene("Kings");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

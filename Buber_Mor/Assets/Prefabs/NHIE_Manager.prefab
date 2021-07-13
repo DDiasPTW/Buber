@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8792083958760746669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8792083958760746643}
+  - component: {fileID: 8792083958760746668}
+  m_Layer: 0
+  m_Name: NHIE_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8792083958760746643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792083958760746669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 224.52914, y: 90.58218, z: -3262.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8792083958760746668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792083958760746669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf0d75e15e03fe44847cf6034b6f391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuncaUncas:
+  - thought about what it would be like to be of the other gender.
+  - fled from the police.
+  - lied about being in a relationship.
+  - skied.
+  - used food during sex.
+  - travelled without paying for the ticket.
+  - had fantasies about being tortured or put in chains
+  - seen my parents/siblings naked
+  - talked to someone about my sexual fantasies
+  - kissed someone whose name I didn't know
+  - 'woke up and thought: What the hell happened last night?'
+  - found someone of the same sex attractive
+  - drunk pee
+  - tied my partner
+  - peed on someone
+  - bought something in a sex shop
+  - had sex in public (public places)
+  - broken one of my bones
+  - had sex while I was very drunk.
+  - kissed someone who's present in this room.
+  - left a party not until the late morning of the next day
+  - left the house without underwear.
+  - been too drunk to remember the whole last night.
+  - punched somebody in the face.
+  - Smoked secretly
+  - lost my virginity.
+  - used a dating app
+  - pissed myself in the last 2 years.
+  - made out with my ex.
+  - done/received a hickey
+  - been cheated on
+  - made out with a friend for fun
+  - tripped in public
+  - had a threesome
+  - Cheated on a test
+  - given/received a blowjob.
+  - tried to hit on someone in another language
+  - faked an orgasm
+  - gone to school/work drunk or with a hangover
+  - lied in a job interview
+  - pulled out unsucessfully
+  - had to take care of a drunk friend
+  - been jealous of anyone here
+  - 'been caught smoking '
+  - sent naked pictures
+  - received naked pictures
+  - said "I Love you" to someone without feeling it
+  - made out with more than 10 people
+  - lied about the size of my penis
+  - licked someone's foot
+  - finished my eraser
+  - dropped my phone into the toilet
+  - imagined the size of a friend's dick
+  - smoked pot
+  - been caught drunk by parents
+  - made out with someone at least 3 years older
+  - measured my penis
+  - made out with someone after throwing up
+  - made out with someone in a relationship
+  - been given/gave a striptease
+  - drunk more than 10 drinks in one night
+  - gone to school high
+  - deleted my browsing history
+  - stolen
+  - farted and blamed someone else
+  - spat on someone
+  - puked
+  - puked because of alcohol
+  - thought someone present doesn't like me
+  - tasted dog/cat food
+  - puked while kissing someone
+  - refused a threesome
+  - scratched my butt and smelled my fingers
+  - left my dog's feces in the street
+  - fallen on the street
+  - thought that any of the people present wouldn't achieve anything in life
+  - made out with someone i wasn't attracted to
+  - stayed a week without showering
+  - gotten drunk more than three days in a row
+  - been the group's drunkard
+  - wanted to kiss the player to my left
+  - farted in a pool
+  - done 69
+  - gotten a friend hooked up
+  - had jizz in my hair
+  - avoided a kiss
+  - fallen while drunk
+  - made out with the partner of someone present
+  - had an open relationship
+  - taken a shower with someone
+  - lied about being a virgin
+  - made out with someone to make someone else jealous
+  - thought that someone kissed horribly
+  - entered a strip club
+  - had to hide a hickey
+  - fallen asleep in class
+  - laughed at a funeral
+  - wore the same underwear for more than 4 days
+  - asked for a raise
+  - been kicked out of a club for being too drunk
+  - thought about killing someone
+  - puked on myself
+  - had a relationship for more than two years
+  - went to a protest
+  - sung in the shower
+  - donated blood
+  - swum in the ocean
+  - played paintball
+  - gotten bullied
+  - been on tv or radio
+  - kept an ex's underwear
+  - lost my contact lenses/glasses
+  - slept in a car
+  - visited  a psychologist
+  - talked to myself and a stranger heard me
+  - smoked a cigar
+  - been to a funeral
+  - put someone's hand in warm water to see if it would make them pee
+  - saw an episode of friends
+  - kicked a dog
+  - tried to guess someone's password
+  - fantasized about someone in this room
+  - watched "2 girls 1 cup"
+  - seen an UFO
+  - been afraid of hugs
+  - been in a band
+  - been able to do 30 push-ups or more
+  - made fun of feminism
+  - cried after a movie
+  - been allergic to something
+  - broken up with someone because I wanted to be with someone else
+  - forgotten my friend's birthday
+  - peed in the shower
+  - been to a nude beach.
+  - had to call the cops on someone.
+  - dropped my phone in the toilet.
+  - taken nude pictures of a friend.
+  - gotten aroused during a medical examination
+  - been hit in my face
+  - been awake for 2 days or more
+  - gone skinny dipping.
+  - played strip poker.
+  - peed in a pool
+  - drunk-dialed my ex
+  - been nude in public
+  - been hospitalized
+  - been a best man
+  - been a maid of honor
+  - thought a friend's baby was ugly
+  - lost more than $50 gambling
+  - gone vegan and regretted it
+  - used a fake ID
+  - lied about my age
+  - had a lucid dream
+  - had chicken pox
+  - flashed someone
+  - lied to my best friend
+  - cut in line
+  - held a grudge
+  - ruined someone's vacation
+  - blabbed something I swore to secrecy
+  - chipped a tooth
+  - cut my own hair
+  - accidentally said "I love you" to someone
+  - had sex in a car
+  - run for my life
+  - been in a talent show
+  - paid for adult content
+  - danced on the rain
+  - gotten sick on a date
+  - had surgery
+  - dressed in drag
+  - peed my pants as an adult
+  - hiked
+  - second-guessed a relationship
+  - lied on a dating profile
+  - broken someone else's heart
+  - fallen in love
+  - sexted an ex
+  - had gum in my hair
+  - sent a text to the wrong person
+  - eaten an entire pizza alone
+  - drank an entire bottle of wine
+  - ridden a horse
+  - fainted
+  - been camping
+  - snuck into a movie
+  - filmed an intimate moment
+  - fired a gun
+  - run a marathon
+  - been blackout drunk
+  - spread a rumor
+  - met a celebrity
+  - cried at a party
+  - cried in public
+  - gone surfing
+  - signed up for a gym and give up after a week
+  - been ghosted
+  - had a black eye
+  - lost my voice
+  - been arrested
+  - worn handcuffs
+  - gotten a tattoo
+  - worn handcuffs
+  - had a speeding ticket
+  - lied to someone in this room
+  - trespassed
+  - broken a wall
+  - broken something of school property
+  - been yelled at by a stranger
+  - tried to go 'pro' at something I had no chance of succeeding
+  - eaten a bug
+  - stole money from my parents
+  - been offered to join a threesome
+  - kissed myself in the mirror
+  - overslept an important appointment
+  - had an affair with a friend's parent
+  - had sex in an elevator
+  - lied about what I like or dislike in order to seem better to someone
+  - caught somebody watching porn
+  - bought sex toys
+  - used edible underwear
+  - had a partner I was ashamed of
+  - waited with breaking up because I didn't have someone new yet
+  - slept with someone whose name I couldn't remember
+  - wished to be born in a friend's body
+  - been transported in an ambulance as an emergency
+  - waited for a person to approach me because I didn't have the guts to do so
+  - destroyed something worth more than $500
+  - had a serious dispute in public
+  - had a partner I was afraid of introducing to my parents
+  - read an erotic novel
+  - stimulated someone's feet
+  - been to California
+  - had a partner who wanted to have sex much more frequently than I did
+  - gotten a blowjob in a forest
+  - made someone else have an orgasm
+  - had sex at a party
+  - phoned or chatted with someone while being on the toilet
+  - sent an email/message with erotic content
+  - kissed a girl
+  - kissed a boy
+  - talked to my parents about contraception
+  - done something kinky in a cinema
+  - recited a romantic poem for my partner
+  - had a telephone call that lasted more than 3 hours.
+  - had somebody strip for me
+  - watched somebody masturbating
+  - had sex but wasn't satisfied afterwards
+  - had sex with one of the players in here
+  - drunk so much that I had to spend the next day in bed
+  - swum naked in the sea
+  - masturbated more than 3 times in a single day
+  - read the bible
+  - kissed someone of the same sex
+  - bought condoms
+  - eaten something to be polite although I didn't like it
+  - broken my furniture while having sex
+  - been attracted to someone significantly younger
+  - searched for more than half an hour for a person on the internet
+  - been jealous because somebody has a better sex life than me
+  - taken viagra
+  _nuncaUncas_: []
+  using1: 1
+  using2: 0
+  nuncaUncaText: {fileID: 0}
