@@ -17,9 +17,9 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
     private void Awake()
     {
         NextUnca();
+        using1 = true;
+        using2 = false;
     }
-
-
     public void NextUnca() 
     {
         //Serve para o botao 'next' -> vai ao dictionary e escolhe ao random uma das perguntas.
@@ -46,7 +46,7 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
             _nuncaUncas_.Add(nuncaUncas[randomNumber]);
             nuncaUncas.Remove(nuncaUncas[randomNumber]);
         }
-        else if(using2)
+        if(using2)
         {
             randomNumber = Random.Range(0, _nuncaUncas_.Count);
             nuncaUncaText.text = _nuncaUncas_[randomNumber];

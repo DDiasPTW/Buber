@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using GoogleMobileAds.Api;
 
 public class AdsManager : MonoBehaviour
 {
     private BannerView bannerAD;
-    string officialBanner = "ca-app-pub-3713044553948028/7023951344";
+    //string officialBanner = "ca-app-pub-3713044553948028/7023951344";
 
     private void Awake()
     {
@@ -23,7 +24,19 @@ public class AdsManager : MonoBehaviour
         RequestBanner();
     }
 
-    private void OnLevelWasLoaded(int level)
+    void OnEnable()
+    {
+        
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
+    }
+
+    void OnDisable()
+    {
+        
+        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         RequestBanner();
     }
