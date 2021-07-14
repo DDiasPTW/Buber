@@ -27,6 +27,20 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("Never_have_i_ever");
     }
 
+    public void MostLikely()
+    {
+        SceneManager.LoadScene("Most_likely_to");
+    }
+
+    public void TOD()
+    {
+        SceneManager.LoadScene("TOD");
+    }
+    public void DOD()
+    {
+        SceneManager.LoadScene("DOD");
+    }
+
     public void KingsCup()
     {
         SceneManager.LoadScene("Kings_Cup");

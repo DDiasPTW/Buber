@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4, g: 0.9882353, b: 0.94509804, a: 1}
+  m_Color: {r: 0.9882353, g: 0.40392157, b: 0.85490197, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -193,8 +193,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GONE DRUNK AND KISSED MANY PPL OR SMTHG COOL PPL DO IDK, IM JUST TESTING
-    STUFF OMG HOW QUIRKY OF ME
+  m_Text: GET ABSOLUTELY FUCKED AND THEN SOMETHING VERY COOL HAPPENS BECAUSE OF THE
+    INFLATION
 --- !u!222 &65933533
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -202,6 +202,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65933530}
+  m_CullTransparentMesh: 1
+--- !u!1 &77339314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77339315}
+  - component: {fileID: 77339317}
+  - component: {fileID: 77339316}
+  m_Layer: 5
+  m_Name: Image (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &77339315
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77339314}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 553115068}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 171.4, y: -700}
+  m_SizeDelta: {x: 500, y: 6.95}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &77339316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77339314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.98823535, g: 0.4039216, b: 0.854902, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &77339317
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77339314}
   m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
@@ -316,10 +391,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 65933531}
-  - {fileID: 1537045869}
-  - {fileID: 1677844561}
-  - {fileID: 1842200551}
-  - {fileID: 1549897516}
+  - {fileID: 1392681130}
+  - {fileID: 1166343597}
+  - {fileID: 77339315}
+  - {fileID: 1473048828}
   m_Father: {fileID: 657196062}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -446,7 +521,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657196061}
   m_CullTransparentMesh: 1
---- !u!1 &1413519480
+--- !u!1 &1166343596
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -454,124 +529,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1413519481}
-  - component: {fileID: 1413519483}
-  - component: {fileID: 1413519482}
+  - component: {fileID: 1166343597}
+  - component: {fileID: 1166343599}
+  - component: {fileID: 1166343598}
   m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1413519481
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413519480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1923437596}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1413519482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413519480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 856c16c56dd12e24bbd89bf7b4210d77, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1413519483
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413519480}
-  m_CullTransparentMesh: 1
---- !u!1 &1537045868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1537045869}
-  - component: {fileID: 1537045871}
-  - component: {fileID: 1537045870}
-  m_Layer: 5
-  m_Name: Image (12)
+  m_Name: Image (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1537045869
+--- !u!224 &1166343597
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537045868}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1166343596}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 553115068}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170, y: 701}
-  m_SizeDelta: {x: 500, y: 6.95}
+  m_AnchoredPosition: {x: -417, y: 303}
+  m_SizeDelta: {x: 800, y: 6.95}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1537045870
+--- !u!114 &1166343598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537045868}
+  m_GameObject: {fileID: 1166343596}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
+  m_Color: {r: 0.98823535, g: 0.4039216, b: 0.854902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -588,13 +588,163 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1537045871
+--- !u!222 &1166343599
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537045868}
+  m_GameObject: {fileID: 1166343596}
+  m_CullTransparentMesh: 1
+--- !u!1 &1392681129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392681130}
+  - component: {fileID: 1392681132}
+  - component: {fileID: 1392681131}
+  m_Layer: 5
+  m_Name: Image (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1392681130
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392681129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 553115068}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -170, y: 701}
+  m_SizeDelta: {x: 500, y: 6.95}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1392681131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392681129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.98823535, g: 0.4039216, b: 0.854902, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1392681132
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392681129}
+  m_CullTransparentMesh: 1
+--- !u!1 &1473048827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473048828}
+  - component: {fileID: 1473048830}
+  - component: {fileID: 1473048829}
+  m_Layer: 5
+  m_Name: Image (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1473048828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473048827}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 553115068}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 419, y: -303}
+  m_SizeDelta: {x: 800, y: 6.95}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1473048829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473048827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.98823535, g: 0.4039216, b: 0.854902, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1473048830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473048827}
   m_CullTransparentMesh: 1
 --- !u!1 &1549145065
 GameObject:
@@ -646,7 +796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4, g: 0.9882353, b: 0.94509804, a: 1}
+  m_Color: {r: 0.9882353, g: 0.40000007, b: 0.85284245, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -666,7 +816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Never have I ever...
+  m_Text: Most likely to...
 --- !u!222 &1549145068
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -675,7 +825,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549145065}
   m_CullTransparentMesh: 1
---- !u!1 &1549897515
+--- !u!1 &1685388382
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -683,159 +833,258 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1549897516}
-  - component: {fileID: 1549897518}
-  - component: {fileID: 1549897517}
-  m_Layer: 5
-  m_Name: Image (15)
+  - component: {fileID: 1685388384}
+  - component: {fileID: 1685388383}
+  m_Layer: 0
+  m_Name: MLT_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1549897516
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549897515}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 553115068}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 419, y: -303}
-  m_SizeDelta: {x: 800, y: 6.95}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1549897517
+--- !u!114 &1685388383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549897515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1549897518
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549897515}
-  m_CullTransparentMesh: 1
---- !u!1 &1677844560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1677844561}
-  - component: {fileID: 1677844563}
-  - component: {fileID: 1677844562}
-  m_Layer: 5
-  m_Name: Image (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1677844561
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677844560}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 553115068}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 303}
-  m_SizeDelta: {x: 800, y: 6.95}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1677844562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677844560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1677844563
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677844560}
-  m_CullTransparentMesh: 1
---- !u!114 &1685388383 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8792083958760746668, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-  m_PrefabInstance: {fileID: 8792083959227667187}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1685388382}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecf0d75e15e03fe44847cf6034b6f391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nuncaUncas:
+  - always be happy
+  - forget important birthdays
+  - be the most caring
+  - worry about small things
+  - break some world record
+  - be rich
+  - e unable to keep a secret for less than 30 minutes
+  - forget what they told someone
+  - cry in a public place
+  - eat their birthday cake alone
+  - die of something stupid
+  - spend all their money on something stupid
+  - fall asleep on the bus and pass their station
+  - go to jail for doing something stupid
+  - "develop a habit of saying \u201Cumm\u201D and \u201Cahh\u201D"
+  - take everything too literally
+  - abandon their room because of spiders
+  - trip off the stairs
+  - end the world
+  - Be engaged first
+  - get arrested for urinating outside
+  - get their friends in trouble
+  - date their best friend's ex
+  - have an imaginary friend as their best friend
+  - get arrested for drinking
+  - cry at the end of a movie
+  - spend all their money on clothes
+  - fall in love quickly
+  - join the army
+  - get a new car this year
+  - 'get pregnant before all of us? '
+  - be the closeted gay friend we know
+  - be a world traveler
+  - watch romantic movies and cry
+  - be late to a really important event
+  - move to a big city the earliest
+  - say the wrong thing at the exact wrong moment
+  - forget the wedding gift to the wedding
+  - give someone the same gift twice
+  - know exactly what to say when you're feeling sad
+  - be the best liar in the group of friends
+  - create the worst selling book of all time
+  - step in front of the line with a pregnant lady in front of them
+  - become a drug lord
+  - turn into the cat lady
+  - be the first one to die
+  - Kill a person first
+  - make more money than all of us
+  - give up alcohol
+  - eat something gross on a dare
+  - eat a toenail
+  - kill a cheating partner
+  - be paranoid
+  - be the first one to die in a zombie apocalypse
+  - make love on a beach
+  - smoke next to a no smoking sign
+  - have gone to a gay club
+  - get arrested for walking around naked
+  - fall in love with a stripper
+  - have always been the heartbreaker
+  - marry a foreigner for a Green Card
+  - elope with a lover
+  - have the most children
+  - be tired of their partner after two weeks
+  - own a yacht
+  - become addicted to coffee
+  - be the best liar
+  - have the most terrible cooking skills
+  - call someone for no reason
+  - indulge in late night snacking
+  - be a terrible photographer
+  - puke first tonight
+  - argue with a police officer
+  - "comment on someone else\u2019s appearance"
+  - give a bad advice
+  - fall in the shower
+  - give money to a homeless person and then take it back
+  - be caught watching porn
+  - experiment with the weirdest sexual positions
+  - cum too soon
+  - go on a vacation just to meet new sexual partners
+  - have sex in the weirdest places
+  - have the most fetishes
+  - scream/moan the loudest during sex
+  - "shout their ex\u2019s name during sex"
+  - win the lottery and then leave their partner for good
+  - get lost in the wilderness
+  - get lost in their own neighborhood
+  - become an influencer
+  - move to a foreign country
+  - live the longest
+  - get the most tattoos
+  - eat chocolate-covered cockroaches
+  - go to a concert alone
+  - disappear for a year
+  - date two people at once
+  - ditch their friends for a cute guy/girl
+  - do drugs
+  - be into BDSM
+  - "own more than one \u201Ctoy\u201D"
+  - build a sex dungeon
+  - get caught hooking up in public
+  - try a threesome
+  - Be offered a threesome
+  - become a sex therapist
+  - reveal they have a foot fetish
+  - marry someone they met on Tinder
+  - hit someone with their car
+  - Get hit by a car
+  - sleep with their boss
+  - join a cult
+  - punch through a wall
+  - get plastic surgery in the future
+  - move to a foreign country
+  - make the first million
+  - become a nun/priest
+  - become poor
+  - "name their kid something we\u2019ll all make fun of"
+  - be drunk at work
+  - get detained for public urination
+  - be fired for unprofessional conduct
+  - start a bar brawl
+  - have the highest body count
+  - go home with someone they just met
+  - do drugs
+  - hook up with a celebrity
+  - have spent the most time watching adult films
+  - catch feelings after a one-night stand
+  - fall asleep during sex
+  - get into a fight with their partner in public
+  - do porn
+  - have sex at work
+  - "hook up with their partner\u2019s sibling"
+  - get away with murder
+  - be late for their own wedding
+  - get detained for harassing a policeman
+  - get a divorce less than a week into their marriage
+  - "pretend they didn\u2019t know the toilet drain was blocked"
+  - smash the television for not being allowed to watch their favorite show
+  - give money to a homeless person and then take it back
+  - wear their new outfit for three weekends in a row
+  - consent to promotion at work in exchange for sexual favors
+  - steal candy from a little kid
+  - get punched in the face
+  - get struck by lightning
+  - get the whole gang in trouble
+  - get their car keyed
+  - get offended by a joke
+  - get pregnant after a one-night stand and keep the baby
+  - go back to teach at their high school
+  - go on a blind date arranged by their mom
+  - own a gun
+  - own an illegal business
+  - own a beach house
+  - fall asleep in class
+  - "fall in love with their best friend\u2019s boy/girlfriend"
+  - fall in love with their teacher in college
+  - fall off a tree
+  - be a horrible boss
+  - be a horrible president
+  - be heartbroken
+  - be a bully
+  - be an Alien
+  - be embarrassed when he/ she is around his/ her crush
+  - eat something that's alive
+  - end up alone
+  - fake their death
+  - develop a million-dollar app
+  - become a bestselling author
+  - become a celebrity
+  - become a gambler
+  - become a gold digger
+  - become a politician
+  - become a professional athlete
+  - become a terrorist
+  - stay up late arguing with internet trolls
+  - stay up late sexting with random strangers on the internet
+  - marry someone, their friends and family hate
+  - have a crush on an anime/cartoon character
+  - have a disease named after them
+  - "have the most clich\xE9 tattoo"
+  - have the most lovers over the next five-year period
+  - have the lowest IQ level
+  - have an interracial marriage
+  - "snatch someone\u2019s partner"
+  - hit on the bereaved at a funeral
+  - never fall in love
+  - give up their seat on the train for an elderly citizen
+  - forgive a cheating partner
+  - help a thief escape
+  - be a good parent
+  - be a stingy parent
+  - be a strict parent
+  - be a cool dad/mom
+  - remain in the bathroom for 2 hours every day
+  - break their phone screen
+  - be the loudest at a game
+  - be two hours late to their own event
+  - go to a party just for the food
+  - accidentally set the house on fire
+  - become a vegetarian
+  - stand up to a bully
+  - lock their key in the car
+  - lose their temper over an insignificant issue
+  - call someone for no reason
+  - cancel on their friends
+  - snitch on their friends
+  - help a friend bury a body
+  - be the first to get drunk on a night out
+  - sext in class
+  _nuncaUncas_: []
+  using1: 1
+  using2: 0
+  nuncaUncaText: {fileID: 65933532}
+  begginingText: Everyone votes on the person that is most likely to... The MOST
+    voted one drinks!
+--- !u!4 &1685388384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685388382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 224.52914, y: 90.58218, z: -3262.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1735683015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -949,7 +1198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275235381238444141, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_Name
-      value: CHALLENGE_Menu (3)
+      value: CHALLENGE_Menu (2)
       objectReference: {fileID: 0}
     - target: {fileID: 275235381238444141, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_IsActive
@@ -1071,7 +1320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
+  m_Color: {r: 0.9882353, g: 0.40392157, b: 0.85490197, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1162,81 +1411,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1842200550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1842200551}
-  - component: {fileID: 1842200553}
-  - component: {fileID: 1842200552}
-  m_Layer: 5
-  m_Name: Image (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1842200551
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842200550}
-  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 553115068}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.4, y: -700}
-  m_SizeDelta: {x: 500, y: 6.95}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1842200552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842200550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1842200553
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842200550}
-  m_CullTransparentMesh: 1
 --- !u!1 &1854517101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,8 +1594,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1413519481}
+  m_Children: []
   m_Father: {fileID: 657196062}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1499,7 +1672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.9215687, b: 0.882353, a: 1}
+  m_Color: {r: 0.9882353, g: 0.40392157, b: 0.85490197, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1708,71 +1881,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
---- !u!1001 &8792083959227667187
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 224.52914
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 90.58218
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3262.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746643, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746668, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: begginingText
-      value: 'IN THIS GAME WHOEVER HAS....
-
-
-        DRINKS!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792083958760746668, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: nuncaUncaText
-      value: 
-      objectReference: {fileID: 65933532}
-    - target: {fileID: 8792083958760746669, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}
-      propertyPath: m_Name
-      value: NHIE_Manager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7948463c4eee9b44f8b25f1a9caf58e4, type: 3}

@@ -13,10 +13,13 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
 
     public Text nuncaUncaText;
 
+    [Multiline]
+    public string begginingText;
+
     private int randomNumber;
     private void Awake()
     {
-        NextUnca();
+        nuncaUncaText.text = begginingText;
         using1 = true;
         using2 = false;
     }

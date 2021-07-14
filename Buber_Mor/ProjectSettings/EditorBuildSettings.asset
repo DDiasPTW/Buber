@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kings.unity
     guid: 651eea366cfb4994894eb1bba6f1fe32
+  - enabled: 1
+    path: Assets/Scenes/Most_likely_to.unity
+    guid: 3227d54451c91014abb319f1b9748f1a
+  - enabled: 1
+    path: Assets/Scenes/TOD.unity
+    guid: 1c59a97f5058f384590d312f9ff820d8
+  - enabled: 1
+    path: Assets/Scenes/DOD.unity
+    guid: 99660a46301f1f74eb8511315ab5e2d5
   m_configObjects: {}
