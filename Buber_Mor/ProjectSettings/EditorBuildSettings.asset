@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DOD.unity
     guid: 99660a46301f1f74eb8511315ab5e2d5
+  - enabled: 1
+    path: Assets/Scenes/IndiaPoker.unity
+    guid: 52c06dee71caa7a468d086403fb3316c
+  - enabled: 1
+    path: Assets/Scenes/Neighbour.unity
+    guid: 09cd0ccfeed70a3458ef70306174acae
   m_configObjects: {}

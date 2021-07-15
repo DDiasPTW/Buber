@@ -56,6 +56,16 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("Kings");
     }
 
+    public void IPoker()
+    {
+        SceneManager.LoadScene("IndiaPoker");
+    }
+
+    public void Neighbour()
+    {
+        SceneManager.LoadScene("Neighbour");
+    }
+
     public void Quit()
     {
         Application.Quit();
