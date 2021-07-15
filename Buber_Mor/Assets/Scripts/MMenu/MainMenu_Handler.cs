@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_Handler : MonoBehaviour
 {
-    public GameObject MainMenu,IBreaker_Menu, CardGames_Menu;
+    public GameObject MainMenu,IBreaker_Menu, CardGames_Menu, Other_Games_Menu;
     private void Awake()
     {
         MainMenu.SetActive(true);
         IBreaker_Menu.SetActive(false);
         CardGames_Menu.SetActive(false);
+        Other_Games_Menu.SetActive(false);
     }
 
     public void IbreakerMenu()
@@ -21,6 +22,11 @@ public class MainMenu_Handler : MonoBehaviour
     public void CardGamesMenu()
     {
         CardGames_Menu.SetActive(true);
+    }
+
+    public void OtherGames()
+    {
+        Other_Games_Menu.SetActive(true);
     }
     public void NuncaUnca()
     {
@@ -64,6 +70,26 @@ public class MainMenu_Handler : MonoBehaviour
     public void Neighbour()
     {
         SceneManager.LoadScene("Neighbour");
+    }
+
+    public void Irish()
+    {
+        SceneManager.LoadScene("Irish");
+    }
+
+    public void Minesweeper()
+    {
+        SceneManager.LoadScene("Minesweeper");
+    }
+
+    public void StraightFace()
+    {
+        SceneManager.LoadScene("StraightFace");
+    }
+
+    public void Fuzzy()
+    {
+        SceneManager.LoadScene("Fuzzy");
     }
 
     public void Quit()

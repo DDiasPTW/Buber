@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Neighbour.unity
     guid: 09cd0ccfeed70a3458ef70306174acae
+  - enabled: 1
+    path: Assets/Scenes/Minesweeper.unity
+    guid: 3f104e9e97ffee341a6c2e71116daeaa
+  - enabled: 1
+    path: Assets/Scenes/StraightFace.unity
+    guid: 263003be6e2c28141814fc75da3b366d
+  - enabled: 1
+    path: Assets/Scenes/Irish.unity
+    guid: db3e4c5cace3fc249925611d8c8c48de
   m_configObjects: {}
