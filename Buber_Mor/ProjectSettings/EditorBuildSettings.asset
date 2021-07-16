@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Irish.unity
     guid: db3e4c5cace3fc249925611d8c8c48de
+  - enabled: 1
+    path: Assets/Scenes/Fuzzy.unity
+    guid: cf458ffb8d1074d40ae5ff2699b83a06
   m_configObjects: {}

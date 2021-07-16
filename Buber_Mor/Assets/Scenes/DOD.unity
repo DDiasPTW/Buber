@@ -182,10 +182,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2de884f54924d5c4db1902ff652428da, type: 3}
-    m_FontSize: 85
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 7
     m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -193,8 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: TENS Q FAZER O NASTY COM O JOGADOR HAHAHAH E DEPOIS TENS Q DAR UM BEIJINHO
-    NO SAPO
+  m_Text: Imagine something in your room. Now spell it with your nose and keep spelling
+    it with your nose until someone from the group guesses what you are trying to
+    spell
 --- !u!222 &65933533
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4483,6 +4484,65 @@ MonoBehaviour:
   - Take a selfie with the person next to you, and post it on social media along
     with a deep and emotional paragraph about what they mean to you.
   - Let the person across from you give you a wedgie.
+  - Kiss the person to your right.
+  - Call a random number and try to flirt with the person who answers.
+  - Remove one item of clothing.
+  - Write a one-paragraph dirty story to be read later.
+  - Leave an R-rated voicemail for an ex.
+  - Close your eyes, scroll through your cell phone contacts, and then tell us the
+    sexiest thing about the person you land on.
+  - Switch underwear with the person to your right (if they agree).
+  - Let someone in the group text your crush.
+  - Open Instagram and choose a person at random (no one in the room) and like every
+    single post from the last year.
+  - "Use your teeth to take off one sock from everyone you\u2019re playing with."
+  - "Go around the room and guess everyone\u2019s kinks."
+  - Turn your pants inside out and wear them like that for the rest of the game.
+  - Take off your bra and put it on one of the boys in the group.
+  - Let someone scroll through your photo album for 30 seconds.
+  - Remove your underwear and give it to someone else.
+  - Whisper dirty talk to the player to your left.
+  - Whisper dirty talk to the player to your right.
+  - Choose a person in the group and say what annoys you about them.
+  - Tell a joke until it makes everyone laugh.
+  - Shave one of your eyebrows.
+  - Show the most embarrassing photo on your phone.
+  - Do a lapdance to the player on your right.
+  - Do a lapdance to the player on your left.
+  - Send a sext to the last person in your phonebook.
+  - Eat a raw onion.
+  - Show off your orgasm face.
+  - Remove four items of clothing. (shoes dont count)
+  - Put 5 different available liquids into a cup and drink it.
+  - Do your best impression of a baby being born.
+  - Pretend to be the person to your right for 10 minutes.
+  - Try to drink a glass of water while standing on your hands.
+  - Let someone shave a part of your body.
+  - Tell the saddest story you know.
+  - Talk in an accent for the next 3 rounds.
+  - Gargle something of the group's choosing.
+  - Get slapped on the face by the person of your choosing.
+  - Seduce a member of the same sex in the group.
+  - Choose someone from the group to give you a spanking.
+  - Imagine something in your room. Now spell it with your nose and keep spelling
+    it with your nose until someone from the group guesses what you are trying to
+    spell.
+  - Act like whatever animal someone yells out for the next 1 minute.
+  - "Transfer an ice cube from your mouth to the person\u2019s mouth on your right."
+  - Call the 3rd contact on your phone and sing them 30 seconds of a song that the
+    group chooses.No talking.
+  - "List all of your ex\u2019s in alphabetical order."
+  - List all of your sexual partners in order of best in bed to worst.
+  - Take your shirt off.
+  - Name your ugliest ex.
+  - Do your best fake orgasm while looking the person to the left of you in the eye.
+  - Close your eyes, spin around and walk in a random direction. Kiss the first person
+    you touch.
+  - "If there\u2019s a pool, you have to go skinny dipping, and you have to choose
+    one buddy to go with you."
+  - Take off your pants.
+  - Draw a mustache on your face.
+  - Put on the national anthem and do your sexiest dance to it.
   _players: []
   add_Players_Menu: {fileID: 275235380495985332}
   nameHolder: {fileID: 222940366}
@@ -6701,14 +6761,6 @@ PrefabInstance:
     - target: {fileID: 5462909518518683268, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
-      propertyPath: challengeUI
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
-      propertyPath: challengeText
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
