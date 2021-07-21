@@ -33,10 +33,10 @@ public class TruthOrDrink_Handler : MonoBehaviour
     }
     public void Next()
     {
-        //Serve para o botao 'next' -> vai ao dictionary e escolhe ao random uma das perguntas.
-        //Se uma pergunta ja estiver a ser usada guarda-se essa pergunta num novo dictionary
-        //e remove-se do original para nao haver repeticoes, depois caso o dictionary
-        //original estiver vazio usa-se o secundario
+        //Serve para o botao 'next' -> vai a list e escolhe ao random uma das perguntas.
+        //Se uma pergunta ja estiver a ser usada guarda-se essa pergunta numa nova list
+        //e remove-se da original para nao haver repeticoes, depois caso a list
+        //original estiver vazia usa-se a secundaria
 
         if (questions.Count == 0 && using1)
         {

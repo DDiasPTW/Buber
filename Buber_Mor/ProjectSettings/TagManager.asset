@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - AD
+  - CHALLENGE
   layers:
   - Default
   - TransparentFX

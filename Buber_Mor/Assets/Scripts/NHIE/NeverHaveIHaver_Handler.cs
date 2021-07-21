@@ -19,9 +19,9 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
     private int randomNumber;
     private void Awake()
     {
-        nuncaUncaText.text = begginingText;
         using1 = true;
         using2 = false;
+        nuncaUncaText.text = begginingText;
     }
     public void NextUnca() 
     {

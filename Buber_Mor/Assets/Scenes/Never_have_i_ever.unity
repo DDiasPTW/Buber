@@ -858,6 +858,14 @@ PrefabInstance:
     - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 5462909517512652402}
+    - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseChallenge
+      objectReference: {fileID: 0}
+    - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChallengeManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 275235380560825658, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -960,6 +968,22 @@ PrefabInstance:
 --- !u!224 &1735683016 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 275235381238444140, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+  m_PrefabInstance: {fileID: 1735683015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1735683017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 275235379406931137, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+  m_PrefabInstance: {fileID: 1735683015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1735683018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 275235381238444141, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
   m_PrefabInstance: {fileID: 1735683015}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1810611607
@@ -1701,13 +1725,24 @@ PrefabInstance:
     - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
       propertyPath: challengeUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1735683018}
     - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
       propertyPath: challengeText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1735683017}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+--- !u!114 &5462909517512652402 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+  m_PrefabInstance: {fileID: 5462909517512652401}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ca90a312ecf1347aa1ca16a6567833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8792083959227667187
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -92,6 +92,11 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("Fuzzy");
     }
 
+    public void Bingo()
+    {
+        SceneManager.LoadScene("Bingo");
+    }
+
     public void Quit()
     {
         Application.Quit();

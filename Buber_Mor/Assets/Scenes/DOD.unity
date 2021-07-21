@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &5655416 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+  m_PrefabInstance: {fileID: 5462909517512652401}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ca90a312ecf1347aa1ca16a6567833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65933530
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +540,14 @@ PrefabInstance:
     - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 5655416}
+    - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseChallenge
+      objectReference: {fileID: 0}
+    - target: {fileID: 275235380560825657, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChallengeManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 275235380560825658, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -631,6 +650,22 @@ PrefabInstance:
 --- !u!224 &191760901 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 275235381238444140, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+  m_PrefabInstance: {fileID: 191760900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &191760902 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 275235379406931137, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
+  m_PrefabInstance: {fileID: 191760900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &191760903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 275235381238444141, guid: f581a105857b7d14198eed850efc6d5d, type: 3}
   m_PrefabInstance: {fileID: 191760900}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &202368609
@@ -6762,5 +6797,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+      propertyPath: challengeUI
+      value: 
+      objectReference: {fileID: 191760903}
+    - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+      propertyPath: challengeText
+      value: 
+      objectReference: {fileID: 191760902}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}

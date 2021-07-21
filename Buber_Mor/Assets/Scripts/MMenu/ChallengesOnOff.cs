@@ -8,7 +8,7 @@ public class ChallengesOnOff : MonoBehaviour
     public Text challengeTextOn_off;
     private void Awake()
     {
-        PlayerPrefs.GetInt("Challenges", 1);
+        PlayerPrefs.GetInt("Challenges");
     }
 
     private void Update()
