@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 6da8788f9f8606b4087fe94bad76794a
+  m_CachedHash:
+    bytes[0]: 0
+    bytes[1]: 0
+    bytes[2]: 0
+    bytes[3]: 0
+    bytes[4]: 0
+    bytes[5]: 0
+    bytes[6]: 0
+    bytes[7]: 0
+    bytes[8]: 0
+    bytes[9]: 0
+    bytes[10]: 0
+    bytes[11]: 0
+    bytes[12]: 0
+    bytes[13]: 0
+    bytes[14]: 0
+    bytes[15]: 0
+  m_IsTemporary: 0
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPath: 
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 773958bc97466a34890ef8c29222f971, type: 2}
+  - {fileID: 11400000, guid: b7346f6097050434ca5e13a919e6f225, type: 2}
+  - {fileID: 11400000, guid: 22070a674cbb5384080fca189959de37, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 45bfe49be2f2fb3479f2c06d9c59a4a6
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 6f46b1b359a6e77498f6eee2bd54f608
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 633b33e6ddd2f5440adcaa0549f7b7fb
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: bdb576d372e5def4f8f5f4dcdb30687d
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 1e297c0a4c8a1b245b33192db2513e1e
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: fa3c3200414adff4caa3535ef657439f
+        m_Value: http://localhost/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: 6f46b1b359a6e77498f6eee2bd54f608
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 633b33e6ddd2f5440adcaa0549f7b7fb
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: bdb576d372e5def4f8f5f4dcdb30687d
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 1e297c0a4c8a1b245b33192db2513e1e
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: fa3c3200414adff4caa3535ef657439f
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Locale
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 8f2e4840ce92c5c4794b924bba63a7bf, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+    <ValueChanged>k__BackingField: 0
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 4cb19ab18c799934d85528628aac47a7, type: 2}
+  - {fileID: 11400000, guid: d4ab910a021c02d4eac3c594f7c76c3b, type: 2}
+  - {fileID: 11400000, guid: 49c6b9f642482074b8a5d533f46e32bb, type: 2}
+  - {fileID: 11400000, guid: a0da361b5ebe9794da19396d761e5362, type: 2}
+  m_ActiveProfileId: 45bfe49be2f2fb3479f2c06d9c59a4a6
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
+  m_DefaultGroupTemplateName: Packed Assets

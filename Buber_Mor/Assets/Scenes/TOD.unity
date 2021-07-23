@@ -4484,6 +4484,31 @@ MonoBehaviour:
   - "How many sex partners do you believe are \u201Ctoo many\u201D for a girl?"
   - "How many sex partners do you believe are \u201Ctoo many\u201D for a guy?"
   - What is the largest age gap between you and someone you have ever done it with?
+  - What is your weirdest fetish?
+  - When was the last time you cried?
+  - What's something you're glad your mum doesn't know about you?
+  - What's a secret you've never told anyone?
+  - What's the worst intimate experience you've ever had?
+  - What's your biggest insecurity?
+  - If you had to kiss one of the players, who would it be?
+  - Where's the weirdest place you've had sex?
+  - Why did your last relationship break down?
+  - "What\u2019s the most ridiculous reason that you have ever broken up with someone
+    over?"
+  - What is the most embarrassing nickname that someone has given you?
+  - Who do you think is the best looking person here?
+  - What is something childish that you still do?
+  - Who is the one person that you regret most about getting romantically involved
+    with?
+  - What animal would you like to switch places with for a week?
+  - Who would be the most annoying and most fun out of the group to be stuck in an
+    elevator with?
+  - What's one thing you only do when you're alone?
+  - If you had to get back with an ex, who would you choose?
+  - If you had to cut one friend out of your life, who would it be?
+  - Who's your best friend?
+  - What's your biggest turn on?
+  - 'What have you purchased that''s been the biggest waste of money? '
   _questions_: []
   _players: []
   add_Players_Menu: {fileID: 275235380495985332}

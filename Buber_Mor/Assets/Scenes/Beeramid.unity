@@ -4155,7 +4155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: they only need to show both cards if both players call bullshit; if only
+  m_Text: They only need to show both cards if both players call bullshit; if only
     one player calls bullshit they only need to show one card.
 --- !u!222 &1250345996
 CanvasRenderer:
