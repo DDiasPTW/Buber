@@ -52,6 +52,11 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("Kings_Cup");
     }
 
+    public void Bridge()
+    {
+        SceneManager.LoadScene("Bridge");
+    }
+
     public void Beeramid()
     {
         SceneManager.LoadScene("Beeramid");
@@ -95,6 +100,11 @@ public class MainMenu_Handler : MonoBehaviour
     public void Bingo()
     {
         SceneManager.LoadScene("Bingo");
+    }
+
+    public void Bus()
+    {
+        SceneManager.LoadScene("Bus");
     }
 
     public void Quit()
