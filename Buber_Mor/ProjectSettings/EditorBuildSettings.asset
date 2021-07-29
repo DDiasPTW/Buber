@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bridge.unity
     guid: 2241fee4c6db4884e86cf03bf5ceabf8
+  - enabled: 1
+    path: Assets/Scenes/UpDown.unity
+    guid: 14d5de14898ef4340abd48b0766bd24b
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 7500f08ddbca7cd40a8a9fcbbeb08eeb, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 70ce0b4eaaceb8d4a948fa7813c98f5a, type: 2}
