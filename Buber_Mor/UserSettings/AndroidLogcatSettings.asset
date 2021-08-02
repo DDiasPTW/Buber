@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "L2N4C19821002280",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "L2N4C19821002280",
+        "name": "com.DiasPTW.Tipsy",
+        "processId": 20584,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,30 @@
             "deviceId": "L2N4C19821002280",
             "name": "com.huawei.android.launcher",
             "processId": 2633,
+            "exited": true
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 14618,
+            "exited": true
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 16554,
+            "exited": true
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 18769,
+            "exited": false
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 20584,
             "exited": false
         }
     ],

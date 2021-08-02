@@ -67,6 +67,10 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("UpDown");
     }
 
+    public void Frenemies()
+    {
+        SceneManager.LoadScene("Frenemies");
+    }
     public void Kings()
     {
         SceneManager.LoadScene("Kings");
