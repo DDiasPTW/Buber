@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TruthOrDrink_Handler : MonoBehaviour
+public class DoOrDrinkHandler : MonoBehaviour
 {
     public List<string> questions = new List<string>();
     public List<string> _questions_ = new List<string>();
@@ -16,11 +16,11 @@ public class TruthOrDrink_Handler : MonoBehaviour
 
     private List<InputField> temporaryHolder = new List<InputField>();
 
-    private static string TODCSVPath = "/Scripts/TOD/TOD_Questions.csv";
-
     public bool using1 = true, using2 = false;
 
     public Text questionText;
+
+    private static string DODCSVPath = "/Scripts/DOD/DOD_Questions.csv";
 
     [Multiline]
     public string begginingText;
@@ -35,6 +35,15 @@ public class TruthOrDrink_Handler : MonoBehaviour
         using2 = false;
 
         GenerateUncas();
+    }
+
+    public void GenerateUncas()
+    {
+        string[] allLines = File.ReadAllLines(Application.dataPath + DODCSVPath);
+        foreach (string uncas in allLines)
+        {
+            questions.Add(uncas);
+        }
     }
     public void Next()
     {
@@ -59,8 +68,8 @@ public class TruthOrDrink_Handler : MonoBehaviour
             if (using1)
             {
                 randomNumber = Random.Range(0, questions.Count);
-                randomPlayer = Random.Range(0,_players.Count);
-                questionText.text =_players[randomPlayer].ToUpper() + ": " + questions[randomNumber];
+                randomPlayer = Random.Range(0, _players.Count);
+                questionText.text = _players[randomPlayer].ToUpper() + ": " + questions[randomNumber];
                 _questions_.Add(questions[randomNumber]);
                 questions.Remove(questions[randomNumber]);
             }
@@ -72,22 +81,14 @@ public class TruthOrDrink_Handler : MonoBehaviour
                 questions.Add(_questions_[randomNumber]);
                 _questions_.Remove(_questions_[randomNumber]);
             }
-        } else questionText.text = "Please add a player".ToUpper();
-        
+        }
+        else questionText.text = "Please add a player".ToUpper();
+
     }
 
     public void Back()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    public void GenerateUncas()
-    {
-        string[] allLines = File.ReadAllLines(Application.dataPath + TODCSVPath);
-        foreach (string uncas in allLines)
-        {
-            questions.Add(uncas);
-        }
     }
 
     public void AddPlayers()

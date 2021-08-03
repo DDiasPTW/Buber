@@ -834,7 +834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1685388384}
-  - component: {fileID: 1685388383}
+  - component: {fileID: 1685388385}
   m_Layer: 0
   m_Name: MLT_Manager
   m_TagString: Untagged
@@ -842,295 +842,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1685388383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685388382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf0d75e15e03fe44847cf6034b6f391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nuncaUncas:
-  - forget important birthdays
-  - be the most caring
-  - worry about small things
-  - break some world record
-  - be rich
-  - e unable to keep a secret for less than 30 minutes
-  - forget what they told someone
-  - cry in a public place
-  - eat their birthday cake alone
-  - die of something stupid
-  - spend all their money on something stupid
-  - fall asleep on the bus and pass their station
-  - go to jail for doing something stupid
-  - "develop a habit of saying \u201Cumm\u201D and \u201Cahh\u201D"
-  - take everything too literally
-  - abandon their room because of spiders
-  - trip off the stairs
-  - end the world
-  - Be engaged first
-  - get arrested for urinating outside
-  - get their friends in trouble
-  - date their best friend's ex
-  - have an imaginary friend as their best friend
-  - get arrested for drinking
-  - cry at the end of a movie
-  - spend all their money on clothes
-  - fall in love quickly
-  - join the army
-  - get a new car this year
-  - 'get pregnant before all of us? '
-  - be the closeted gay friend we know
-  - be a world traveler
-  - watch romantic movies and cry
-  - be late to a really important event
-  - move to a big city the earliest
-  - say the wrong thing at the exact wrong moment
-  - forget the wedding gift to the wedding
-  - give someone the same gift twice
-  - know exactly what to say when you're feeling sad
-  - be the best liar in the group of friends
-  - create the worst selling book of all time
-  - step in front of the line with a pregnant lady in front of them
-  - become a drug lord
-  - turn into the cat lady
-  - be the first one to die
-  - Kill a person first
-  - make more money than all of us
-  - give up alcohol
-  - eat something gross on a dare
-  - eat a toenail
-  - kill a cheating partner
-  - be paranoid
-  - be the first one to die in a zombie apocalypse
-  - make love on a beach
-  - smoke next to a no smoking sign
-  - have gone to a gay club
-  - get arrested for walking around naked
-  - fall in love with a stripper
-  - have always been the heartbreaker
-  - marry a foreigner for a Green Card
-  - elope with a lover
-  - have the most children
-  - be tired of their partner after two weeks
-  - own a yacht
-  - become addicted to coffee
-  - be the best liar
-  - have the most terrible cooking skills
-  - call someone for no reason
-  - indulge in late night snacking
-  - be a terrible photographer
-  - puke first tonight
-  - argue with a police officer
-  - "comment on someone else\u2019s appearance"
-  - give a bad advice
-  - fall in the shower
-  - give money to a homeless person and then take it back
-  - be caught watching porn
-  - experiment with the weirdest sexual positions
-  - cum too soon
-  - go on a vacation just to meet new sexual partners
-  - have sex in the weirdest places
-  - have the most fetishes
-  - scream/moan the loudest during sex
-  - "shout their ex\u2019s name during sex"
-  - win the lottery and then leave their partner for good
-  - get lost in the wilderness
-  - get lost in their own neighborhood
-  - become an influencer
-  - move to a foreign country
-  - live the longest
-  - get the most tattoos
-  - eat chocolate-covered cockroaches
-  - go to a concert alone
-  - disappear for a year
-  - date two people at once
-  - ditch their friends for a cute guy/girl
-  - do drugs
-  - be into BDSM
-  - "own more than one \u201Ctoy\u201D"
-  - build a sex dungeon
-  - get caught hooking up in public
-  - try a threesome
-  - Be offered a threesome
-  - become a sex therapist
-  - reveal they have a foot fetish
-  - marry someone they met on Tinder
-  - hit someone with their car
-  - Get hit by a car
-  - sleep with their boss
-  - join a cult
-  - punch through a wall
-  - get plastic surgery in the future
-  - move to a foreign country
-  - make the first million
-  - become a nun/priest
-  - become poor
-  - "name their kid something we\u2019ll all make fun of"
-  - be drunk at work
-  - get detained for public urination
-  - be fired for unprofessional conduct
-  - start a bar brawl
-  - have the highest body count
-  - go home with someone they just met
-  - do drugs
-  - hook up with a celebrity
-  - have spent the most time watching adult films
-  - catch feelings after a one-night stand
-  - fall asleep during sex
-  - get into a fight with their partner in public
-  - do porn
-  - have sex at work
-  - "hook up with their partner\u2019s sibling"
-  - get away with murder
-  - be late for their own wedding
-  - get detained for harassing a policeman
-  - get a divorce less than a week into their marriage
-  - "pretend they didn\u2019t know the toilet drain was blocked"
-  - smash the television for not being allowed to watch their favorite show
-  - give money to a homeless person and then take it back
-  - wear their new outfit for three weekends in a row
-  - consent to promotion at work in exchange for sexual favors
-  - steal candy from a little kid
-  - get punched in the face
-  - get struck by lightning
-  - get the whole gang in trouble
-  - get their car keyed
-  - get offended by a joke
-  - get pregnant after a one-night stand and keep the baby
-  - go back to teach at their high school
-  - go on a blind date arranged by their mom
-  - own a gun
-  - own an illegal business
-  - own a beach house
-  - fall asleep in class
-  - "fall in love with their best friend\u2019s boy/girlfriend"
-  - fall in love with their teacher in college
-  - fall off a tree
-  - be a horrible boss
-  - be a horrible president
-  - be heartbroken
-  - be a bully
-  - be an Alien
-  - be embarrassed when he/ she is around his/ her crush
-  - eat something that's alive
-  - end up alone
-  - fake their death
-  - develop a million-dollar app
-  - become a bestselling author
-  - become a celebrity
-  - become a gambler
-  - become a gold digger
-  - become a politician
-  - become a professional athlete
-  - become a terrorist
-  - stay up late arguing with internet trolls
-  - stay up late sexting with random strangers on the internet
-  - marry someone, their friends and family hate
-  - have a crush on an anime/cartoon character
-  - have a disease named after them
-  - "have the most clich\xE9 tattoo"
-  - have the most lovers over the next five-year period
-  - have the lowest IQ level
-  - have an interracial marriage
-  - "snatch someone\u2019s partner"
-  - hit on the bereaved at a funeral
-  - never fall in love
-  - give up their seat on the train for an elderly citizen
-  - forgive a cheating partner
-  - help a thief escape
-  - be a good parent
-  - be a stingy parent
-  - be a strict parent
-  - be a cool dad/mom
-  - remain in the bathroom for 2 hours every day
-  - break their phone screen
-  - be the loudest at a game
-  - be two hours late to their own event
-  - go to a party just for the food
-  - accidentally set the house on fire
-  - become a vegetarian
-  - stand up to a bully
-  - lock their key in the car
-  - lose their temper over an insignificant issue
-  - call someone for no reason
-  - cancel on their friends
-  - snitch on their friends
-  - help a friend bury a body
-  - be the first to get drunk on a night out
-  - sext in class
-  - become a stripper
-  - become engaged
-  - end up as a stand-up comedian
-  - get kissed first
-  - get an StD
-  - fall down stairs
-  - get arrested for urinating outside
-  - win the lottery
-  - fall asleep during sex
-  - remain single forever
-  - be a race car driver
-  - be followed by the secret service
-  - take a test intoxicated
-  - get arrested for drinking
-  - step in front of a moving train
-  - get a million followers on TikTok
-  - frequent nude beaches on vacation
-  - to kill a person
-  - self-sabotage their relationship
-  - give the best advice
-  - give terrible advice
-  - have a kid before marriage
-  - have their license suspended
-  - have an extreme body piercing
-  - blow all their money on an impulse buy
-  - dish out a genuine compliment
-  - re-gift something that was gifted to them
-  - undergo a sex change
-  - move to another country
-  - be arrested for shoplifting
-  - have a tattoo they regret
-  - have a fat savings account
-  - get a breast lift
-  - get a tummy tuck
-  - get liposuction
-  - break their nose by walking into something
-  - queue behind a mannequin at a store
-  - fall for a catfish account on the internet
-  - get in the most car wrecks throughout their lifetime
-  - be caught on CCTV doing something stupid
-  - lock themselves out of the house
-  - text while walking on a busy street
-  - cancel on their friends for a new date
-  - sell drugs to a uniformed officer
-  - to mistakenly apply hair remover
-  - go broke again after winning the lottery
-  - become bald-headed
-  - forget their own birthday
-  - get a face tattoo
-  - get a genital tattoo
-  - convert to another religion just to have sex with someone
-  - get busted by cops while with prostitutes
-  - have sex with an octogenarian (80-89 years old)
-  - end up homeless
-  - sleep with a total loser out of pure desperation
-  - confess all their sexual wins to a priest
-  - be shy on the outside but a total perv behind closed doors
-  - get cheated on
-  - get rejected by a prostitute
-  - to hit at their cute cousin
-  - fart during sex
-  _nuncaUncas_: []
-  using1: 1
-  using2: 0
-  nuncaUncaText: {fileID: 65933532}
-  begginingText: Everyone votes on the person that is most likely to... The MOST
-    voted one drinks!
 --- !u!4 &1685388384
 Transform:
   m_ObjectHideFlags: 0
@@ -1145,6 +856,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1685388385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685388382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41acd119d9096954ba89e804c674a005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuncaUncas: []
+  _nuncaUncas_: []
+  using1: 1
+  using2: 0
+  nuncaUncaText: {fileID: 65933532}
+  begginingText: Everyone votes on the person that is most likely to... The MOST
+    voted one drinks!
 --- !u!1001 &1735683015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1355,8 +1085,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685388383}
-        m_TargetAssemblyTypeName: NeverHaveIHaver_Handler, Assembly-CSharp
+      - m_Target: {fileID: 1685388385}
+        m_TargetAssemblyTypeName: MLT_Handler, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
         m_Arguments:
@@ -1707,8 +1437,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685388383}
-        m_TargetAssemblyTypeName: NeverHaveIHaver_Handler, Assembly-CSharp
+      - m_Target: {fileID: 1685388385}
+        m_TargetAssemblyTypeName: MLT_Handler, Assembly-CSharp
         m_MethodName: NextUnca
         m_Mode: 1
         m_Arguments:
@@ -1811,7 +1541,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

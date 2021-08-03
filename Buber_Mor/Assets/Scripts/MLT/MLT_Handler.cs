@@ -5,14 +5,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NeverHaveIHaver_Handler : MonoBehaviour
+public class MLT_Handler : MonoBehaviour
 {
     [SerializeField]
     private List<string> nuncaUncas = new List<string>();
     [SerializeField]
     private List<string> _nuncaUncas_ = new List<string>();
 
-    private static string NHIECSVPath = "/Scripts/NHIE/NHIE_Questions.csv";
+    private static string MLTCSVPath = "/Scripts/MLT/MLT_Questions.csv";
 
     public bool using1 = true, using2 = false;
 
@@ -33,7 +33,7 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
         nuncaUncaText.text = begginingText;
     }
 
-    public void NextUnca() 
+    public void NextUnca()
     {
         //Serve para o botao 'next' -> vai ao dictionary e escolhe ao random uma das perguntas.
         //Se uma pergunta ja estiver a ser usada guarda-se essa pergunta num novo dictionary
@@ -51,7 +51,7 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
             using1 = true;
         }
 
-        
+
         if (using1)
         {
             randomNumber = Random.Range(0, nuncaUncas.Count);
@@ -59,7 +59,7 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
             _nuncaUncas_.Add(nuncaUncas[randomNumber]);
             nuncaUncas.Remove(nuncaUncas[randomNumber]);
         }
-        if(using2)
+        if (using2)
         {
             randomNumber = Random.Range(0, _nuncaUncas_.Count);
             nuncaUncaText.text = "..." + _nuncaUncas_[randomNumber].ToLower();
@@ -70,7 +70,7 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
 
     public void GenerateUncas()
     {
-        string[] allLines = File.ReadAllLines(Application.dataPath + NHIECSVPath);
+        string[] allLines = File.ReadAllLines(Application.dataPath + MLTCSVPath);
         foreach (string uncas in allLines)
         {
             nuncaUncas.Add(uncas);
