@@ -7,26 +7,34 @@ using UnityEngine.UI;
 
 public class MLT_Handler : MonoBehaviour
 {
+    //Listas que vao segurar os MLTs
     [SerializeField]
     private List<string> nuncaUncas = new List<string>();
     [SerializeField]
     private List<string> _nuncaUncas_ = new List<string>();
 
-    private static string MLTCSVPath = "/Scripts/MLT/MLT_Questions.csv";
+    //Local onde esta o ficheiro que contem todos os MLTs
+    //private static string MLTCSVPath = "/Scripts/MLT/MLT_Questions.csv";
+    [SerializeField] private TextAsset MLTcvs;
 
+    //Que lista esta a ser usada
     public bool using1 = true, using2 = false;
 
+    //Texto dos MLTs
     public Text nuncaUncaText;
 
+    //Texto que aparece antes do jogo comecar
     [Multiline]
     public string begginingText;
 
+    //Numero random para escolher um MLT ao calhas
     private int randomNumber;
     private void Awake()
     {
+        MLTcvs = Resources.Load<TextAsset>("MLT_Questions");
         using1 = true;
         using2 = false;
-        GenerateUncas();
+        GenerateMLT();
     }
     private void Start()
     {
@@ -68,12 +76,16 @@ public class MLT_Handler : MonoBehaviour
         }
     }
 
-    public void GenerateUncas()
+    public void GenerateMLT()
     {
-        string[] allLines = File.ReadAllLines(Application.dataPath + MLTCSVPath);
+        //string[] allLines = File.ReadAllLines(Application.persistentDataPath + MLTCSVPath);
+        string[] allLines = MLTcvs.text.Split("\n"[0]); ;
         foreach (string uncas in allLines)
         {
-            nuncaUncas.Add(uncas);
+            if (uncas != "")
+            {
+                nuncaUncas.Add(uncas);
+            }
         }
     }
 

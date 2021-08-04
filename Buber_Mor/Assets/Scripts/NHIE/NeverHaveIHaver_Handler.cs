@@ -7,26 +7,33 @@ using UnityEngine.UI;
 
 public class NeverHaveIHaver_Handler : MonoBehaviour
 {
+    //Listas que vao segurar os NHIE
     [SerializeField]
     private List<string> nuncaUncas = new List<string>();
     [SerializeField]
     private List<string> _nuncaUncas_ = new List<string>();
 
-    private static string NHIECSVPath = "/Scripts/NHIE/NHIE_Questions.csv";
-
+    //Local onde esta o ficheiro que contem os NHIE
+    //private static string NHIECSVPath = "/Scripts/NHIE/NHIE_Questions.csv";
+    [SerializeField] private TextAsset NHIEcvs;
+    //Que lista esta a ser usada
     public bool using1 = true, using2 = false;
 
+    //O texto dos NHIE
     public Text nuncaUncaText;
 
+    //Texto que aparece antes do jogo ser iniciado
     [Multiline]
     public string begginingText;
 
+    //Que NHIE e escolhido
     private int randomNumber;
     private void Awake()
     {
+        NHIEcvs = Resources.Load<TextAsset>("NHIE_Questions");
         using1 = true;
         using2 = false;
-        GenerateUncas();
+        GenerateNHIE();
     }
     private void Start()
     {
@@ -68,12 +75,16 @@ public class NeverHaveIHaver_Handler : MonoBehaviour
         }
     }
 
-    public void GenerateUncas()
+    public void GenerateNHIE()
     {
-        string[] allLines = File.ReadAllLines(Application.dataPath + NHIECSVPath);
+        //string[] allLines = File.ReadAllLines(Application.persistentDataPath + NHIECSVPath);
+        string[] allLines = NHIEcvs.text.Split("\n"[0]); ;
         foreach (string uncas in allLines)
         {
-            nuncaUncas.Add(uncas);
+            if (uncas != "")
+            {
+                nuncaUncas.Add(uncas);
+            }
         }
     }
 

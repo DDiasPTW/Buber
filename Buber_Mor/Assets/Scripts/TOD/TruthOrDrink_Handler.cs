@@ -7,25 +7,42 @@ using UnityEngine.UI;
 
 public class TruthOrDrink_Handler : MonoBehaviour
 {
-    public List<string> questions = new List<string>();
-    public List<string> _questions_ = new List<string>();
+    //Listas que vao segurar os TODs
+    [SerializeField] private List<string> questions = new List<string>();
+    [SerializeField] private List<string> _questions_ = new List<string>();
+
+    //Lista que vai segurar o nome dos jogadores
     public List<string> _players = new List<string>();
 
+
+    //Menu de adicionar os jogadores
     public GameObject add_Players_Menu;
     public GameObject nameHolder;
 
+    //Sitio onde se escreve o nome dos jogadores
     private List<InputField> temporaryHolder = new List<InputField>();
 
-    private static string TODCSVPath = "/Scripts/TOD/TOD_Questions.csv";
+    //Local onde se encontra o ficheiro que contem os TODs
+    [SerializeField] private TextAsset TODQuestions;
+    //private static string TODCSVPath = "/Scripts/TOD/TOD_Questions.csv";
 
+    //Challenge Manager -> serve para pausar o timer de challenges
+    private GameObject cM; 
+
+    //Que lista esta a usar
     public bool using1 = true, using2 = false;
 
+    //O texto dos TODs
     public Text questionText;
 
+    //Texto que aparece antes do jogo iniciar
     [Multiline]
     public string begginingText;
 
+    //Que TOD e escolhido
     private int randomNumber;
+
+    //Que jogador e escolhido
     private int randomPlayer;
     private void Awake()
     {
@@ -33,8 +50,14 @@ public class TruthOrDrink_Handler : MonoBehaviour
         questionText.text = begginingText;
         using1 = true;
         using2 = false;
+        TODQuestions = Resources.Load<TextAsset>("TOD_Questions");
+        GenerateTODS();
+    }
 
-        GenerateUncas();
+    private void Start()
+    {     
+        cM = GameObject.FindGameObjectWithTag("CHALLENGE");
+        cM.SetActive(false);
     }
     public void Next()
     {
@@ -81,12 +104,16 @@ public class TruthOrDrink_Handler : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void GenerateUncas()
+    public void GenerateTODS()
     {
-        string[] allLines = File.ReadAllLines(Application.dataPath + TODCSVPath);
-        foreach (string uncas in allLines)
+        string[] allTOD = TODQuestions.text.Split("\n"[0]);
+        //string[] allLines = File.ReadAllLines(TODQuestions);
+        foreach (string uncas in allTOD)
         {
-            questions.Add(uncas);
+            if (uncas != "")
+            {
+                questions.Add(uncas);
+            }
         }
     }
 
@@ -95,6 +122,7 @@ public class TruthOrDrink_Handler : MonoBehaviour
         add_Players_Menu.SetActive(true);
         _players.Clear();
         temporaryHolder.Clear();
+        cM.SetActive(false);
     }
 
     public void ClosePlayers()
@@ -113,6 +141,7 @@ public class TruthOrDrink_Handler : MonoBehaviour
             }
             else continue;
         }
+        cM.SetActive(true);
         add_Players_Menu.SetActive(false);
     }
 }

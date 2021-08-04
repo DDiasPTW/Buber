@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "L2N4C19821002280",
         "name": "com.DiasPTW.Tipsy",
-        "processId": 20584,
+        "processId": 31649,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,18 @@
             "deviceId": "L2N4C19821002280",
             "name": "com.DiasPTW.Tipsy",
             "processId": 20584,
+            "exited": false
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 28660,
+            "exited": false
+        },
+        {
+            "deviceId": "L2N4C19821002280",
+            "name": "com.DiasPTW.Tipsy",
+            "processId": 31649,
             "exited": false
         }
     ],

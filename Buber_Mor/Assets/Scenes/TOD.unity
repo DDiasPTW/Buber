@@ -4312,6 +4312,7 @@ MonoBehaviour:
   _players: []
   add_Players_Menu: {fileID: 275235380495985332}
   nameHolder: {fileID: 222940366}
+  TODQuestions: {fileID: 0}
   using1: 1
   using2: 0
   questionText: {fileID: 65933532}
@@ -6669,5 +6670,9 @@ PrefabInstance:
       propertyPath: challengeText
       value: 
       objectReference: {fileID: 1892814382}
+    - target: {fileID: 5462909518518683269, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
+      propertyPath: Challenges.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336093820f2e67b4fa2e9561d2e20037, type: 3}
