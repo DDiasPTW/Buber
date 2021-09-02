@@ -11,9 +11,9 @@ public class DoOrDrinkHandler : MonoBehaviour
     [SerializeField] private List<string> questions = new List<string>();
     [SerializeField] private List<string> _questions_ = new List<string>();
     //numero total de DODs
-    [SerializeField]private int numTotal;
-    [SerializeField]private int numUp1;
-    [SerializeField]private int numUp2;
+    private int numTotal;
+    private int numUp1;
+    private int numUp2;
     //Lista que vai segurar os nomes dos jogadores
     public List<string> _players = new List<string>();
 
@@ -32,6 +32,7 @@ public class DoOrDrinkHandler : MonoBehaviour
 
     //Texto dos DODs
     public Text questionText;
+    public Text playerText;
 
     //Local onde esta o ficheiro que contem os DODs
     //private static string DODCSVPath = "/Scripts/DOD/DOD_Questions.csv";
@@ -51,6 +52,7 @@ public class DoOrDrinkHandler : MonoBehaviour
         DODcvs = Resources.Load<TextAsset>("DOD_Questions");
         add_Players_Menu.SetActive(true);
         questionText.text = begginingText;
+        playerText.text = "";
         using1 = true;
         using2 = false;
 
@@ -62,18 +64,17 @@ public class DoOrDrinkHandler : MonoBehaviour
     {
         cM = GameObject.FindGameObjectWithTag("CHALLENGE");
         cM.SetActive(false);
-        numUp1 = (numTotal / 3) * 2;
-        numUp2 = numTotal / 3;
+        numUp1 = (numTotal / 3) * 2; //dois tercos do total de pergutas
+        numUp2 = numTotal / 3; //um terco do total de perguntas
     }
 
     #region Do's Manager
     public void GenerateDODS()
     {
-        string[] allLines = DODcvs.text.Split("\n"[0]); ;
-        //string[] allLines = File.ReadAllLines(Application.persistentDataPath + DODCSVPath);
+        string[] allLines = DODcvs.text.Split("\n"[0]);
         foreach (string uncas in allLines)
         {
-            if (uncas != "")
+            if (uncas != string.Empty)
             {
                 questions.Add(uncas);
             }
@@ -104,7 +105,8 @@ public class DoOrDrinkHandler : MonoBehaviour
                 randomNumber = Random.Range(0, questions.Count);
                 randomPlayer = Random.Range(0, _players.Count);
                 numTotal--;
-                questionText.text = _players[randomPlayer].ToUpper() + ": " + questions[randomNumber];
+                playerText.text = _players[randomPlayer].ToUpper();
+                questionText.text = questions[randomNumber];
                 _questions_.Add(questions[randomNumber]);
                 questions.Remove(questions[randomNumber]);
             }
@@ -113,7 +115,8 @@ public class DoOrDrinkHandler : MonoBehaviour
                 numTotal--;
                 randomNumber = Random.Range(0, _questions_.Count);
                 randomPlayer = Random.Range(0, _players.Count);
-                questionText.text = _players[randomPlayer].ToUpper() + ": " + _questions_[randomNumber];
+                playerText.text = _players[randomPlayer].ToUpper();
+                questionText.text = _questions_[randomNumber];
                 questions.Add(_questions_[randomNumber]);
                 _questions_.Remove(_questions_[randomNumber]);
             }

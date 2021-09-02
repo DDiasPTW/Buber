@@ -666,7 +666,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Never have I ever...
+  m_Text: NEVER HAVE I EVER...
 --- !u!222 &1549145068
 CanvasRenderer:
   m_ObjectHideFlags: 0

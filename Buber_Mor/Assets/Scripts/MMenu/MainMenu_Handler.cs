@@ -38,6 +38,11 @@ public class MainMenu_Handler : MonoBehaviour
         SceneManager.LoadScene("Most_likely_to");
     }
 
+    public void President()
+    {
+        SceneManager.LoadScene("President");
+    }
+
     public void TOD()
     {
         SceneManager.LoadScene("TOD");

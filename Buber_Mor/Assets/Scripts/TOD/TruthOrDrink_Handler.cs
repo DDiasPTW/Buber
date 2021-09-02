@@ -34,6 +34,7 @@ public class TruthOrDrink_Handler : MonoBehaviour
 
     //O texto dos TODs
     public Text questionText;
+    public Text PlayerText;
 
     //Texto que aparece antes do jogo iniciar
     [Multiline]
@@ -48,6 +49,7 @@ public class TruthOrDrink_Handler : MonoBehaviour
     {
         add_Players_Menu.SetActive(true);
         questionText.text = begginingText;
+        PlayerText.text = "";
         using1 = true;
         using2 = false;
         TODQuestions = Resources.Load<TextAsset>("TOD_Questions");
@@ -83,7 +85,8 @@ public class TruthOrDrink_Handler : MonoBehaviour
             {
                 randomNumber = Random.Range(0, questions.Count);
                 randomPlayer = Random.Range(0,_players.Count);
-                questionText.text =_players[randomPlayer].ToUpper() + ": " + questions[randomNumber];
+                PlayerText.text = _players[randomPlayer].ToUpper();
+                questionText.text = questions[randomNumber];
                 _questions_.Add(questions[randomNumber]);
                 questions.Remove(questions[randomNumber]);
             }
@@ -91,7 +94,8 @@ public class TruthOrDrink_Handler : MonoBehaviour
             {
                 randomNumber = Random.Range(0, _questions_.Count);
                 randomPlayer = Random.Range(0, _players.Count);
-                questionText.text = _players[randomPlayer].ToUpper() + ": " + _questions_[randomNumber];
+                PlayerText.text = _players[randomPlayer].ToUpper();
+                questionText.text = _questions_[randomNumber];
                 questions.Add(_questions_[randomNumber]);
                 _questions_.Remove(_questions_[randomNumber]);
             }
@@ -106,11 +110,11 @@ public class TruthOrDrink_Handler : MonoBehaviour
 
     public void GenerateTODS()
     {
-        string[] allTOD = TODQuestions.text.Split("\n"[0]);
-        //string[] allLines = File.ReadAllLines(TODQuestions);
+        string[] allTOD = TODQuestions.text.Split("\n" [0]);
+       
         foreach (string uncas in allTOD)
-        {
-            if (uncas != "")
+        {          
+            if (uncas != string.Empty)
             {
                 questions.Add(uncas);
             }
